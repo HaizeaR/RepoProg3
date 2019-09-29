@@ -4,9 +4,6 @@ package p0;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-
-
 import javax.swing.*;
 
 
@@ -129,15 +126,13 @@ public class VentanaJuego extends JFrame {
 		nuevoHilo.start();
 
 	}
-	
 
 	class MiRunnable implements Runnable{
 
 		@Override
 		public void run() {
 			coche.mueve(0.040);
-		
-
+	
 			try {
 				Thread.sleep(40);
 			} catch (InterruptedException e) {

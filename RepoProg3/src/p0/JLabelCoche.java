@@ -21,7 +21,7 @@ public class JLabelCoche extends JLabel {
 	public JLabelCoche() {
 		
 		try {
-			setIcon( new ImageIcon( JLabelCoche.class.getResource("coche.png").toURI().toURL() ) );
+			setIcon( new ImageIcon( JLabelCoche.class.getResource("coche.png").toURI().toURL()));
 		} catch (Exception e) {
 			System.out.println("ERROR");
 			e.printStackTrace();
