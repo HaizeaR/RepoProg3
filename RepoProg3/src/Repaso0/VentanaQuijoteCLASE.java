@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import javax.swing.*;
 
+import sun.nio.ch.Interruptible;
+
 /** Ejercicio de hilos  con ventanas. Esta clase carga el texto del Quijote en un área de texto,
  * y permite navegar por el área con la scrollbar y con botones de página arriba y página abajo.
  * 1. Modificarlo para que al pulsar los botones el scroll se haga con una animación 
@@ -19,7 +21,7 @@ public class VentanaQuijoteCLASE extends JFrame {
 
 	private JTextArea taTexto;
 	private JScrollPane spTexto;
-	
+
 	public VentanaQuijoteCLASE() {
 		setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
 		setTitle( "Don Quijote de la Mancha" );
@@ -46,35 +48,51 @@ public class VentanaQuijoteCLASE extends JFrame {
 				muevePagina( (spTexto.getHeight()-20) );
 			}
 		});
+		
+		
+		addWindowListener(new WindowAdapter() {
+			
+			@Override
+			public void windowClosed(WindowEvent e) {
+				for(Thread t : hilosActivos) {
+					t.interrupt();
+					
+				}
+			}
+			
+		});
 	}
-	
-	
-	
+
+
+
 	// no hay solo una manera de hacerlo 
 	// puede ser nombres y yo llamo así a mis hilos
 	// pero tambien puede ser de objetos y meto directamente los hilos
-	
+
 	private ArrayList<Thread> hilosActivos = new ArrayList<>(); 
-	
+
 	private Thread hiloActual; 
-	
+
 	private void muevePagina( int pixelsVertical ) {
-		
+
 		hiloActual = new Thread(new Runnable() {
 
 			@Override
 			public void run() {
-			// mirar si hay algún hilo funcionancdo y hasta que no soy el primero no me pongo a funcionar 
-				
-				Thread yo = hiloActual; // cambiar nombre no es necesario 
+				// mirar si hay algún hilo funcionancdo y hasta que no soy el primero no me pongo a funcionar 
+
+				Thread yo = hiloActual; // cambiar nombre 
+				// Cuando tenemos más de un hilo si todos los dejamos cono hiloActual en cuanto se cree uno nuevo dejaría de funcionar el actual 
+
+
 				hilosActivos.add(yo);
-				
+
 				while (hilosActivos.get(0) != yo) {
-					
+				//	if(interrupted())return; 
+
 					try {
-					Thread.sleep(10);
-					}catch(InterruptedException e) {}
-					
+						Thread.sleep(10);
+					}catch(InterruptedException e) {}					
 				}
 
 				JScrollBar bVertical = spTexto.getVerticalScrollBar();
@@ -84,7 +102,6 @@ public class VentanaQuijoteCLASE extends JFrame {
 
 				// como empiezo en 0 solo <
 				// si empiezo en 1 sería <= 
-
 				if (pixelsVertical>0) {
 					for(int i=0; i < pixelsVertical; i++) {
 
@@ -104,12 +121,10 @@ public class VentanaQuijoteCLASE extends JFrame {
 				}
 				hilosActivos.remove(0);
 			}
-
 		});
 		hiloActual.start();
-
 	}
-	
+
 	private void cargaQuijote() {
 		try {
 			Scanner scanner = new Scanner( VentanaQuijoteCLASE.class.getResourceAsStream( "DonQuijote.txt" ), "UTF-8" );
@@ -127,6 +142,13 @@ public class VentanaQuijoteCLASE extends JFrame {
 		VentanaQuijoteCLASE v = new VentanaQuijoteCLASE();
 		v.setVisible( true );
 		v.cargaQuijote();
+		
+		// matar hilos cuando la ventana se cierre 
+		// deamons !!
+		// no usamos esto usamos interrupt 
+		
+		
 	}
-
 }
+
+
