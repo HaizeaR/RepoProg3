@@ -131,6 +131,10 @@ public class VentanaJuego extends JFrame {
 
 		@Override
 		public void run() {
+			boolean seguir = true; 
+			// meter dentro de una repetición 
+			while(seguir) {
+			
 			coche.mueve(0.040);
 	
 			try {
@@ -139,10 +143,10 @@ public class VentanaJuego extends JFrame {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 		}
-
-
+			
+		}
+		// hacer que en algún momento pare 		
 	}
 }
 

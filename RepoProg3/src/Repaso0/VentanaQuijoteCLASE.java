@@ -56,14 +56,27 @@ public class VentanaQuijoteCLASE extends JFrame {
 	
 	private ArrayList<Thread> hilosActivos = new ArrayList<>(); 
 	
+	private Thread hiloActual; 
+	
 	private void muevePagina( int pixelsVertical ) {
 		
-		Thread t = new Thread(new Runnable() {
+		hiloActual = new Thread(new Runnable() {
 
 			@Override
 			public void run() {
+			// mirar si hay algún hilo funcionancdo y hasta que no soy el primero no me pongo a funcionar 
+				
+				Thread yo = hiloActual; // cambiar nombre no es necesario 
+				hilosActivos.add(yo);
+				
+				while (hilosActivos.get(0) != yo) {
+					
+					try {
+					Thread.sleep(10);
+					}catch(InterruptedException e) {}
+					
+				}
 
-				// TODO Cambiar este comportamiento de acuerdo a los comentarios de la cabecera de clase
 				JScrollBar bVertical = spTexto.getVerticalScrollBar();
 				System.out.println( "Moviendo texto de " + bVertical.getValue() + " a " + (bVertical.getValue()+pixelsVertical) );
 
@@ -89,10 +102,11 @@ public class VentanaQuijoteCLASE extends JFrame {
 						}
 					}
 				}
+				hilosActivos.remove(0);
 			}
 
 		});
-		t.start();
+		hiloActual.start();
 
 	}
 	

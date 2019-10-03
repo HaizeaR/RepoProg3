@@ -10,6 +10,8 @@ import java.awt.Image;
 import javax.swing.*;
 
 public class JLabelCoche extends JLabel {
+	
+	
 	private static final long serialVersionUID = 1L; 
 	
 	int ancho = 100 ; 
