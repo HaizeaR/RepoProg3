@@ -75,6 +75,7 @@ public class EjemploVLCJ extends JFrame {
     	if (!found) System.setProperty("jna.library.path", "c:\\Archivos de programa\\videolan\\vlc-2.1.5");
 		miVentana = new EjemploVLCJ();
 		miVentana.lanza(
+				// cambiarlo por un video de el ordenador 
 				"D:\\media\\videos\\AOrdenar\\Musica\\Material Girl - Walk off the Earth.mp4"
 				);
 	}
