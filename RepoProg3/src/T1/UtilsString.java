@@ -26,7 +26,10 @@ public class UtilsString {
 	 * @throws IndexOutOfBoundsException Generada si el largo es negativo
 	 */
 	public static String wrapString( String s, int largo ) throws IndexOutOfBoundsException {
-		if (s==null) 
+		
+		// if(largo<0)throw new IndexOutOfBoundsException("Indice negativo");
+		
+		if (s==null)  
 			return null;
 		else if (s.length()>largo)
 			return s.substring(0, largo) + "...";

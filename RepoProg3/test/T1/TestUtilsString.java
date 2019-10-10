@@ -60,6 +60,11 @@ public class TestUtilsString {
 		assertEquals( "", UtilsString.wrapString( "", 8) );
 		assertEquals( "", UtilsString.wrapString( "", 0) );
 		assertEquals( "...", UtilsString.wrapString( "Andoni", 0) );
+		
+		// pensar más pruebas 
+		// ¿Si le paso un negativo ? 
+		
+		
 	}
 	
 	// Pruebas de wrapString con valores extremos
@@ -72,6 +77,7 @@ public class TestUtilsString {
 	// Pruebas de excepción de wrapString (método 1)
 	@Test
 	public void testWrapStringExc() {
+		// si entra en el try estara mal porque tiene que saltar la excepción
 		try {
 			UtilsString.wrapString( "Andoni", -5 );
 			fail();
