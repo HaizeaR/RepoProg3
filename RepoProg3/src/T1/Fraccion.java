@@ -25,6 +25,7 @@ public class Fraccion {
 	/** Crea y simplifica (si procede) una fracción
 	 * @param num	Numerador
 	 * @param den	Denominador
+	 * @throws ArithmeticException Funcion incorrecta si denom de f2 es 0 
 	 */
 	public Fraccion( int num, int den ) {
 		
@@ -109,6 +110,7 @@ public class Fraccion {
 	 * @param f1	Fracción 1
 	 * @param f2	Fracción 2
 	 * @return	Fracción resultado de la resta f1 - f2
+	 * @throws ArithmeticException si denom de f2 es 0 
 	 */
 	public static Fraccion divide( Fraccion f1, Fraccion f2 ) {
 		

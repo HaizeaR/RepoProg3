@@ -72,7 +72,11 @@ public class TestFraccion {
 			fail();
 		} catch (ArithmeticException e) {
 			// Test correcto
+		}catch(Exception e) {
+			fail(); 
 		}
+		
+		
 		try {
 			Fraccion f5 = new Fraccion( 0, 0 ); // Error! Fracción más irracional
 			fail();
