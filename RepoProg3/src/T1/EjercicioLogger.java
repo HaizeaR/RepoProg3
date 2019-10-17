@@ -3,6 +3,11 @@ package T1;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
+import java.io.PrintStream;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.*;
 
@@ -18,9 +23,43 @@ public class EjercicioLogger {
 	
 	// TODO Añadir logger y registrar lo indicado en la cabecera (y más si se quiere)
 	
+	//static PrintStream log; 
+	
+	static Logger log = Logger.getLogger("prueba-logger");;
+
+
 	private static JTextField tfEntrada = new JTextField( 60 );
 	private static JLabel lMensaje = new JLabel( " " );
+	
+	
+	
 	public static void main(String[] args) {
+		
+		
+		//log.setLevel(Level.ALL);
+
+//		try {
+//			h  = new FileHandler("prueba-logger.xml" ,true);
+//		} catch (Exception e) {
+//			log.log( Level.SEVERE, e.toString(), e );
+//		
+//		log.addHandler(h);
+//		}
+//		
+		
+		try {
+		
+			Handler h = new FileHandler("prueba-logger.xml" ,true); 
+	
+			log.setLevel( Level.FINEST );
+			log.addHandler( h );  // Saca todos los errores a out
+			h.setLevel( Level.FINEST );
+		
+			
+		}catch (Exception e){ }
+		
+		
+		
 		// Ventana de ejemplo para el ejercicio
 		final JFrame f = new JFrame( "Ventana rápida para ejercicio logger" );  // Ventana a visualizar
 		f.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
@@ -39,6 +78,10 @@ public class EjercicioLogger {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				sacaFicheros();
+				
+				log.log(Level.FINE, "Editando textflied"); 
+				
+				
 			}
 		});
 		bBuscar.addActionListener( new ActionListener() {
@@ -56,13 +99,26 @@ public class EjercicioLogger {
 			}
 		});
 		f.setVisible( true );
-	}
+		log.log(Level.FINE, "Ventana inciada"); 
+		}
+ 
 	
 	// Saca el número de ficheros de la carpeta indicada
 	private static  void sacaFicheros() {
+		try {
 		File f = new File( tfEntrada.getText() );
 		File[] listDir = f.listFiles();
 		lMensaje.setText( "Ficheros+directorios en la carpeta: " + listDir.length );
+		
+		log.log(Level.INFO , "Carpeta buscada" + f.getAbsolutePath()); 
+		} catch(Exception e) {
+			JOptionPane.showMessageDialog(null, "Carpeta Erronea introduce otra");
+			e.printStackTrace(); 
+			log.log(Level.SEVERE, "Error en sacarfichero" , e );
+			
+			
+		}
+		
 	}
 
 }

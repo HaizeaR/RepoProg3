@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-17T08:45:29</date>
+  <millis>1571294729143</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>FINE</level>
+  <class>T1.EjercicioLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Ventana inciada</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-17T08:46:54</date>
+  <millis>1571294814750</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>FINE</level>
+  <class>T1.EjercicioLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Ventana inciada</message>
+</record>
+</log>
