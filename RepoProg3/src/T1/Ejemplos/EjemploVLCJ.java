@@ -10,6 +10,8 @@ import uk.co.caprica.vlcj.player.base.MediaPlayerEventAdapter;
 // Con versión 4 de vlcj: http://capricasoftware.co.uk/projects/vlcj
 //	http://capricasoftware.co.uk/downloads/vlcj/vlcj-4.1.0-dist.zip
 
+// AHORA TENEMOS LA VERSIÓN 3 CAMBIARLA
+
 import uk.co.caprica.vlcj.player.component.EmbeddedMediaPlayerComponent;
 import uk.co.caprica.vlcj.factory.discovery.NativeDiscovery;
 
