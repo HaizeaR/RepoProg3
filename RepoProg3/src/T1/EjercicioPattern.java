@@ -14,6 +14,7 @@ public class EjercicioPattern {
 	
 	//private static String patron1 = "\\d\\d/\\d\\d/\\d\\d\\d\\d";
 	// String patron1 = "[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]";
+	
 	private static String patron1 = "\\d{2}/\\d{2}/\\d{4}"; 
 	private static Pattern pat1 = Pattern.compile( patron1 );  // Se compila
 	
@@ -24,9 +25,7 @@ public class EjercicioPattern {
 	 */
 	public static boolean comprobarFecha( String fecha ) {
 		// TODO Implementar esto con expresiones regulares y clase Pattern
-		
-		
-
+	
 		return pat1.matcher(fecha).matches();
 	}
 
