@@ -15,6 +15,8 @@ import javax.swing.*;
  * (por ejemplo [a] sacar los enteros cada 2 segundos y también [b] calcular la media y [c] solo visualizar)
  * también utilizando java funcional?
  */
+
+
 public class JavaFuncional {
 
 	private static JLabel lSalida = new JLabel( " " );
@@ -35,11 +37,36 @@ public class JavaFuncional {
 		pEntrada.add( bProcesar );
 		f.add( pEntrada, BorderLayout.NORTH );
 		f.add( lSalida, BorderLayout.SOUTH );
+		
+		
+		//programas eventos 
+		
+//		ActionListener obj = new ActionListener() {
+//			
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				procesoBoton(); 
+//				
+//			}
+//		};
+//		bProcesar.addActionListener(obj);
+		
+		
+		bProcesar.addActionListener( (ActionEvent jj) -> {procesoBoton(); } );
+		
 		// Visualizar
 		f.pack();
 		f.setLocationRelativeTo( null );
 		f.setVisible( true );
 	}
+	
+	
+	public static void procesoBoton() {
+		
+	}
+	
+	
+	
 	
 	/** Devuelve un arraylist de strings partiendo de un string con comas
 	 * @param lista	Lista de substrings separados por comas
