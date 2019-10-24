@@ -19,26 +19,135 @@ public class JavaFuncional {
 
 	private static JLabel lSalida = new JLabel( " " );
 	private static JTextField tfEntrada = new JTextField( 20 );
+	private static JButton bProcesar;
+	private static ArrayList<String> nombreOpcion = new ArrayList<>(); 
+	private static ArrayList<RecibeListaInts> nombreCodigo = new ArrayList<>();
 	
+	private static void init() {
+		
+		nombreOpcion.add("Visualizar cada 2 seg");
+		nombreOpcion.add("Calcular media"); 
+		nombreOpcion.add("Visualizar lista"); 
+		// meter códigos no null y se ejecutara uno u otro
+		
+		///// NUEVOOOOOOOOO
+		
+		// Nombre de clase / instancia :: nombre de método
+		// el método tiene que tener un array list de integers para que funcione y devolver VOID 
+		
+		
+		nombreCodigo.add(JavaFuncional :: cada2segundos);  // cod de la primera
+		nombreCodigo.add(JavaFuncional :: calculaMedia); // cod de la segunda
+		nombreCodigo.add( (l) -> { lSalida.setText(l.toString()); } ); // cod de la tercera 
+
+		for(String s: nombreOpcion) {
+			cbOpciones.addItem(s);
+		}
+	}
+	
+	private static JComboBox<String> cbOpciones = new JComboBox<>(); 
+	
+//	static {
+//		// codigo que se ejecuta el cargar la clase y solo una vez 
+//	}
+	
+		
 	/** Crea ventana de ejemplo con un cuadro de texto y un botón
 	 * @param args	No utilizado
 	 */
 	public static void main(String[] args) {
+		
+		init();
 		// Creación y configuración ventana
 		JFrame f = new JFrame( "Ejemplo de lambda en Java 8" );
 		f.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
 		// Componentes
 		JPanel pEntrada = new JPanel();
-		JButton bProcesar = new JButton( "Procesar" );
+		bProcesar = new JButton( "Procesar" );
 		pEntrada.add( new JLabel( "lista de enteros entre comas:" ) );
 		pEntrada.add( tfEntrada );
 		pEntrada.add( bProcesar );
+	
 		f.add( pEntrada, BorderLayout.NORTH );
 		f.add( lSalida, BorderLayout.SOUTH );
+		f.add(cbOpciones, BorderLayout.CENTER);
+		
+		
+//	ActionListener obj = new ActionListener() {
+//		
+//		@Override
+//		public void actionPerformed(ActionEvent e) {
+//			// TODO Auto-generated method stub
+//			
+//		}
+//	};
+//		
+		// JAVA FUNCIONAL 
+		
+		bProcesar.addActionListener((ActionEvent e) -> {procesarBoton();} );
+		
+	
+		
 		// Visualizar
 		f.pack();
 		f.setLocationRelativeTo( null );
 		f.setVisible( true );
+	}
+	
+	public static void procesarBoton() {
+		
+		ArrayList<String> lStrings = listaDeStrings(tfEntrada.getText()); 
+		ArrayList<Integer> lEnteros = listaDeInts(lStrings); 
+		if(lEnteros == null || lEnteros.isEmpty()) { 
+			return  ;
+		}
+		if (cbOpciones.getSelectedIndex() != -1) {
+			nombreCodigo.get(cbOpciones.getSelectedIndex()).procesaLE(lEnteros);
+		}
+
+	}
+	
+	public static interface RecibeListaInts { 
+		void procesaLE(ArrayList<Integer> l );
+	}
+	
+	
+	
+	private static void cada2segundos( ArrayList<Integer> lEnteros) {
+		
+		// HILOS COMO SIEMPRE
+//		Thread t = new Thread (new Runnable() {
+//			@Override
+//			public void run() {
+//				// TODO Auto-generated method stub				
+//			}
+//		}); 
+		
+		
+		// HILO CON  JAVA FUNCIONAL
+		Thread t = new Thread(
+				() -> {
+					bProcesar.setEnabled(false);
+					for(int i : lEnteros) {
+						lSalida.setText(i + "");
+						try {Thread.sleep(2000); } catch(InterruptedException e) {}
+
+					}
+					lSalida.setText(""); 
+					bProcesar.setEnabled(true);
+				}
+
+				); 
+			t.start();
+		
+	}
+	
+	private static void calculaMedia(ArrayList<Integer> l ) {
+		int suma = 0 ; 
+		for (int i : l) suma += i;
+		lSalida.setText("" + 1.0 *suma / l.size());
+		
+		
 	}
 	
 	/** Devuelve un arraylist de strings partiendo de un string con comas
