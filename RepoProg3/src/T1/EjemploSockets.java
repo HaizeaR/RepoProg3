@@ -2,6 +2,7 @@ package T1;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.Date;
 import java.net.ServerSocket;
 import java.awt.*;
 import javax.swing.*;
@@ -12,6 +13,13 @@ import java.awt.event.*;
  * al servidor, que envía un mensaje de confirmación con cada texto.
  * @author andoni.eguiluz @ ingenieria.deusto.es
  */
+
+
+// AÑADIR COMANDO 
+// si cliente dice Hora al servidor , servidor devuelve hora 
+//
+
+
 public class EjemploSockets {
 
 	private static String HOST = "localhost";  // IP de conexión para la comunicación
@@ -127,8 +135,17 @@ public class EjemploSockets {
 	    		while(!finComunicacion) {  // ciclo de lectura desde el cliente hasta que acabe la comunicación
 	    			String textoRecibido = inputDesdeCliente.readLine();
 	    			if(textoRecibido.equals("fin")) {
-	    				break;
+	    				break;  // sale directamente de while
+	    				
+	    				
+	    		
 	    			}
+	    			
+	    			else if (textoRecibido.equals("hora")) {
+	    				outputACliente.println("" + new Date());
+	    				continue;  // vuelve a ejecutar/comprobar el while
+	    			}
+	    			
 	    			lEstado.setText( "Recibido de cliente: [" + textoRecibido + "]" );
 	    			taMensajes.append( textoRecibido + "\n" );
 	    			taMensajes.setSelectionStart( taMensajes.getText().length() );
