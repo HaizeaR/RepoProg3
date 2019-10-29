@@ -9,9 +9,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import T3.EjemploFicheros;
-import T3.TipoUsuario;
-import T3.Usuario;
 
 public class TestEjemploFicheros {
 
@@ -26,7 +23,14 @@ public class TestEjemploFicheros {
 		miListaUsuarios.add( new Usuario( "buzz", "#9abbf", "Buzz", "Lightyear", 101202303, TipoUsuario.Admin, "buzz@gmail.com", "amigo.de.woody@gmail.com" ) );
 		miListaUsuarios.add( new Usuario( "woody", "woody", "Woody", "The cowboy", 666111222, TipoUsuario.Cliente, "woody-toystory@gmail.com" ) );
 		miListaUsuarios.add( new Usuario( "pcruz", "4556gght", "Penélope", "Cruz", 609634852, TipoUsuario.Invitado, "penelope.cruz@gmail.com" ) );
-		miListaUsuarios.add( new Usuario( "jbardem", "bardemthebest", "Javier", "Bardem", 607349552, TipoUsuario.Invitado, "javier.bardem@gmail.com" ) );
+		miListaUsuarios.add( new Usuario( "jsbardem", "bardemthebest", "Javier", "Bardem", 607349552, TipoUsuario.Invitado, "javier.bardem@gmail.com" ) );
+		// FALLO EN TEST DE COMAS
+		//miListaUsuarios.add( new Usuario( "j,sbardem", "bardemthebest", "Javier", "Bardem", 607349552, TipoUsuario.Invitado, "javier.bardem@gmail.com" ) );
+		// FALLO EN FICHERO CON TAG
+		//miListaUsuarios.add( new Usuario( "jsbardem", "bardem\nthebest", "Javier", "Bardem", 607349552, TipoUsuario.Invitado, "javier.bardem@gmail.com" ) );
+		
+		miListaUsuarios.add( new Usuario( "jsbardem", "bardemthebest", "Javier", "Bardem", 607349552, TipoUsuario.Invitado, "javier.bardem@gmail.com" ) );
+
 	}
 
 	@After
