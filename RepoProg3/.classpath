@@ -3,6 +3,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_202]"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="Examenes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="/Users/Haizea/Desktop/Librerias/vlcj-4.1.0/vlcj-4.1.0.jar" sourcepath="/Users/Haizea/Desktop/vlcj-4.1.0/vlcj-4.1.0-sources.jar">
 		<attributes>
