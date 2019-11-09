@@ -27,6 +27,7 @@ public class EjemploSockets {
 	
 	private static VentanaServidor vs;
 	private static VentanaCliente vc;
+	
 	public static void main(String[] args) {
 		vs = new VentanaServidor();
 		vs.setVisible( true );
@@ -135,9 +136,7 @@ public class EjemploSockets {
 	    		while(!finComunicacion) {  // ciclo de lectura desde el cliente hasta que acabe la comunicación
 	    			String textoRecibido = inputDesdeCliente.readLine();
 	    			if(textoRecibido.equals("fin")) {
-	    				break;  // sale directamente de while
-	    				
-	    				
+	    				break;  // sale directamente de while	
 	    		
 	    			}
 	    			

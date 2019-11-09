@@ -24,6 +24,8 @@ public class EjemploSockets2 {
 	
 	private static VentanaServidor vs;
 	public static void main(String[] args) {
+		
+		// SERVIDOR 
 		vs = new VentanaServidor();
 		vs.setVisible( true );
 		(new Thread() {
@@ -32,6 +34,10 @@ public class EjemploSockets2 {
 				vs.lanzaServidor();
 			}
 		}).start();
+		
+		
+		// CLIENTE 
+		
 		VentanaCliente vc = new VentanaCliente( "A" );
 		vc.setVisible( true );
 		(new Thread() {
@@ -40,8 +46,11 @@ public class EjemploSockets2 {
 				vc.lanzaCliente();
 			}
 		}).start();
+		
 		// *VARIOS CLIENTES* Lanzamos más clientes tras pausita
+		
 		try {Thread.sleep(2000); } catch (InterruptedException e) {} 
+		
 		VentanaCliente vc2 = new VentanaCliente( "B" );
 		vc2.setLocation( vc2.getLocation().x, vc2.getLocation().y + 200 );  // Un poco más abajo
 		vc2.setVisible( true );
@@ -52,6 +61,7 @@ public class EjemploSockets2 {
 			}
 		}).start();
 		try {Thread.sleep(2000); } catch (InterruptedException e) {} 
+		
 		VentanaCliente vc3 = new VentanaCliente( "C" );
 		vc3.setLocation( vc3.getLocation().x, vc3.getLocation().y + 400 );  // Más abajo aún
 		vc3.setVisible( true );
@@ -65,12 +75,20 @@ public class EjemploSockets2 {
 
 	@SuppressWarnings("serial")
 	public static class VentanaCliente extends JFrame {
+		
 		private JTextArea taEstado = new JTextArea();
 		private JTextField tfMensaje = new JTextField( "Introduce tu mensaje y pulsa <Enter>" );
+		// --------
 		private PrintWriter outputAServer;
         private boolean finComunicacion = false;
+        // --------
         private String nombre;
-		public VentanaCliente( String nombre ) {
+     
+        
+        // CONSTRUCTOR DE VENTANA 
+        
+        public VentanaCliente( String nombre ) {
+        
 			this.nombre = nombre;
 			setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
 			setSize( 400, 300 );
@@ -137,7 +155,11 @@ public class EjemploSockets2 {
         ArrayList<Socket> lSockets = new ArrayList<>(); 
         ArrayList<PrintWriter> lSalidas = new ArrayList<>();
         int numCliente = 0;  // Añadimos un número de cliente para saber cuántos se conectan
-		public VentanaServidor() {
+		
+        
+        
+        // CONSTRUCTOR VENTANA SERVIDOR 
+        public VentanaServidor() {
 			setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
 			setSize( 400, 300 );
 			setLocation( 400, 0 );

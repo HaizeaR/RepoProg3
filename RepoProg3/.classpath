@@ -4,10 +4,11 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="/Users/Haizea/Desktop/vlcj-4.1.0/vlcj-4.1.0.jar" sourcepath="/Users/Haizea/Desktop/vlcj-4.1.0/vlcj-4.1.0-sources.jar">
+	<classpathentry kind="lib" path="/Users/Haizea/Desktop/Librerias/vlcj-4.1.0/vlcj-4.1.0.jar" sourcepath="/Users/Haizea/Desktop/vlcj-4.1.0/vlcj-4.1.0-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Haizea/Desktop/vlcj-4.1.0/vlcj-4.1.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Haizea/Desktop/Librerias/sqlite-jdbc-3.27.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
