@@ -33,7 +33,7 @@ public class ProdConSuma {
 		if(n==0) {
 			return 0; 
 		}else {
-			return m + producto ( m, n-1); 
+			return m + producto (m, n-1); 
 		}
 
 	}

@@ -30,8 +30,10 @@ public class Factorial {
 	}
 	
 	private static void fact2(int nInicial, long valorInicial, int nFinal) {
+		
 		if(nInicial == nFinal) {
 			System.out.println(valorInicial);
+			
 		}else {
 			fact2(nInicial+1, valorInicial*(nInicial+1) , nFinal);
 		}
