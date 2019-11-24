@@ -10,10 +10,10 @@ public class longAHexa {
 	private static void longAHexa() {
 		long l = 900;
 		long l2 = 1235; 
-		cambio(l); 
+		System.out.println(cambio(l));
 		System.out.println("\t numero en DEC " + l);
 	
-		cambio(l2);
+		System.out.println(cambio(l2));
 		System.out.println("\t numero en DEC " + l2);
 
 
@@ -52,10 +52,11 @@ public class longAHexa {
 
 				int r = (int) (l/16);
 				resultado = Integer.toString(r) + resultado;
-				//	System.out.println(resultado);
+					//System.out.println(invertir.reverse(resultado));
 
 			}
-			System.out.print(resultado);
+			
+			
 			return cambio(l/16) + resultado;
 		}
 		

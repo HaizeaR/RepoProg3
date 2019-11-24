@@ -12,10 +12,10 @@ public class invertir {
 	private static void invertirFrase() {
 		String palabra = "Esto" ;
 		String frase = "Esto es una frase a invertir";
-		
-		reverse(palabra);
+		System.out.println(reverse(palabra));
+	
 		// Se tiene que ver -->  otsE
-		reverse(frase);
+		System.out.println(reverse(frase));
 		// Se tiene que ver --> ritrevni a esarf anu se otsE
 		
 	}
