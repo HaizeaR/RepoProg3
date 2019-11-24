@@ -105,7 +105,7 @@ public class PruebaTablas {
 			// (t1 a t5 son tiempos en niveles 1 a 5, p1 a p5 puntos en esos niveles)
 			ArrayList<Color> lColores = new ArrayList<>( Arrays.asList( new Color(247,202,121), new Color(146,208,80), new Color(255,0,0), new Color(39,228,253), Color.YELLOW  ) );
 			ArrayList<Color> lColoresBorde = new ArrayList<>( Arrays.asList( Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK ) );
-			TablaEstadistica ta = new TablaEstadistica( Tabla.processCSV(new File( "src/examen/parc201911/datos.csv" ) ) );
+			TablaEstadistica ta = new TablaEstadistica( Tabla.processCSV(new File( "src/prepParcial2019/datos.csv" ) ) );
 			VentanaTabla vDatos = mainNuevaVent( vgt, ta, "Puntuaciones y tiempos" );
 			vDatos.setLocation( 0, 300 );
 			Color ROJO_CLARO = new Color( 255, 180, 180 );
