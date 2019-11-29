@@ -42,7 +42,7 @@ public class invertir {
 			 }
 			   
 			 else {
-				 palabra = invertirF(palabra.substring(1))+palabra.charAt(0) ;
+				 palabra = invertirF(palabra.substring(1)) + palabra.charAt(0) ;
 				// System.out.println(palabra);
 				 return palabra;
 			 }
