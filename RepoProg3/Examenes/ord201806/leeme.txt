@@ -1,0 +1,22 @@
+Se supone que de alguna aplicación desplegada en una serie de tablets nuestro sistema sincroniza sus ficheros de log.
+Con este programa se pueden revisar esos ficheros de log de una forma sencilla. La operativa es del siguiente modo:
+
+- Si se pulsa el botón "Buscar logs en carpeta" se buscan todos los ficheros de log que estén en la carpeta introducida a su izquierda
+  (sale un selector de fichero que permite elegir otra de forma interactiva)
+  Tras buscar los ficheros, estos aparecen en la lista de la izquierda.
+  Al abrir la aplicación, esta búsqueda se hace de forma automática si la carpeta está configurada (no es vacía ni "c:\")
+- Los ficheros que se buscan son solo los que tienen la extensión de fichero indicada (por omisión .txt). Se pueden indicar varias separadas por comas
+- Al pulsar el botón "Buscar texto" se busca el texto libre introducido a la izquierda en todos los ficheros de log registrados
+- Al pulsar el botón "Buscar eventos" se busca una serie de eventos particulares en esos ficheros.
+  Están definidos tres tipos de evento:
+   - Un evento multilínea que describe una Excepción ocurrida en la tablet
+   - Un evento multilínea que describe un guardado ("saved") ocurrido en la tablet
+   - Un evento de una línea que describe un error ocurrido en la tablet
+  Los eventos encontrados aparecen en la lista vertical central.
+- Al seleccionar un fichero en la lista de la izquierda aparece su contenido en el área de texto (derecha)
+- Al seleccionar un evento en la lista central aparece el texto al que corresponde en el área de texto
+
+La aplicación tiene un fichero de configuración procesologs.ini que se crea automáticamente que guarda la última configuración de la ventana (tamaño y posición), 
+así como la última carpeta de búsqueda, la extensión de ficheros buscados y el historial de textos buscados que aparecen en el combobox.
+
+La carpeta "data" tiene algunos ficheros de log de ejemplo. Las subcarpetas indican el código de tablet al que pertenecen esos logs (formato "Txxx").
