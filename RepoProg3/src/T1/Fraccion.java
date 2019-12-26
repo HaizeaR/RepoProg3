@@ -30,7 +30,7 @@ public class Fraccion {
 	public Fraccion( int num, int den ) {
 		
 		int num_mcd = mcd(num, den); 
-	if (den < 0) {
+		if (den < 0) {
 		den = -den;
 		num = -num; 
 	}

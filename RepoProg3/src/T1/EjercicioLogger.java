@@ -25,7 +25,8 @@ public class EjercicioLogger {
 	
 	//static PrintStream log; 
 	
-	static Logger log = Logger.getLogger("prueba-logger");;
+	static Logger log = Logger.getLogger("prueba-logger");
+	
 
 
 	private static JTextField tfEntrada = new JTextField( 60 );
