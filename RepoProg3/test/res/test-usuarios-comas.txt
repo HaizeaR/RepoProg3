@@ -2,3 +2,4 @@ buzz,#9abbf,Buzz,Lightyear,101202303,0,Admin,buzz@gmail.com,amigo.de.woody@gmail
 woody,woody,Woody,The cowboy,666111222,0,Cliente,woody-toystory@gmail.com
 pcruz,4556gght,Penélope,Cruz,609634852,0,Invitado,penelope.cruz@gmail.com
 jsbardem,bardemthebest,Javier,Bardem,607349552,0,Invitado,javier.bardem@gmail.com
+jsbardem,bardemthebest,Javier,Bardem,607349552,0,Invitado,javier.bardem@gmail.com

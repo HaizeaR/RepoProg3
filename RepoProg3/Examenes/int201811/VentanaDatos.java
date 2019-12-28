@@ -2,9 +2,14 @@ package int201811;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.function.Consumer;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.*;
 
@@ -15,6 +20,7 @@ import javax.swing.*;
 public class VentanaDatos extends JFrame {
 	
 	private JTable tDatos;  // JTable de datos de la ventana
+ 
 	
 	/** Crea una nueva ventana
 	 */
@@ -170,11 +176,15 @@ public class VentanaDatos extends JFrame {
 						centro.getEstudPorSesion()[ numSesion-1 ] += numEstuds;  // A�ade n�mero de estudiantes en la sesi�n correspondiente
 					} else {
 						// T2
-						System.err.println( "C�digo de centro incorrecto en l�nea de seguimiento: " + mentoras.getFila( fila ) );
+						// System.err.println( "Código de centro incorrecto en línea de seguimiento: " + mentoras.getFila( fila ) );
+						procesaErrorLinea( (l) -> System.out.println( "Código de centro incorrecto en línea de seguimiento: " + l ), 
+							mentoras.getFila(fila) );
 					}
 				} catch (Exception e) {
 					// T2
-					System.err.println( "Error en l�nea de seguimiento: " + mentoras.getFila( fila ) );
+					// System.err.println( "Error en línea de seguimiento: " + mentoras.getFila( fila ) );
+					procesaErrorLinea( (l) -> log.log( Level.WARNING, "Error en línea de seguimiento: " + l ), 
+						mentoras.getFila(fila) );
 				}
 			}
 			Tabla c = Tabla.createTablaFromColl( Datos.centros.values() );
@@ -182,10 +192,21 @@ public class VentanaDatos extends JFrame {
 		} catch (Exception e) { e.printStackTrace(); }
 	}
 	
-		// T2 - Inicializaci�n de logger
+		// T2 - Inicialización de logger
+		private static Logger log = Logger.getLogger( "error-sesiones" );
+		static {
+			try {
+				Handler h = new FileHandler("errores-sesiones.xml", true);
+				log.addHandler(h);
+				h.setLevel(Level.WARNING);
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
 
 		private static void procesaErrorLinea( Consumer<ArrayList<String>> proceso, ArrayList<String> linea ) {
 			// T2
+			proceso.accept( linea );
 		}
-	
 }

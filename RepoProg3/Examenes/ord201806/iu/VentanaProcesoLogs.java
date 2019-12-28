@@ -19,10 +19,10 @@ public class VentanaProcesoLogs extends JFrame {
 	// Atributos de componentes principales de ventana
 	private JLabel lMensaje; // l�nea de mensajes de la ventana
 	private JTextArea taVer; // �rea de texto de salida de informaci�n
-	private JTextField tfCarpeta; // Cuadro de texto de carpeta a explorar
+	public JTextField tfCarpeta; // Cuadro de texto de carpeta a explorar
 	private JTextField tfExtensiones; // Cuadro de texto de extensiones de ficheros a buscar
 	private JComboBox<String> cbTextoABuscar; // Combo de texto a buscar con el historial de textos buscados
-	private JList<FicheroLog> lFicheros; // Lista de ficheros de log encontrados
+	public JList<FicheroLog> lFicheros; // Lista de ficheros de log encontrados
 	private JList<Evento> lEventos; // Lista de eventos de log encontrados
 	private JButton bCarpeta; // Bot�n de b�squeda de carpeta
 	private JButton bBuscarTexto; // Bot�n de b�squeda en logs
@@ -213,7 +213,7 @@ public class VentanaProcesoLogs extends JFrame {
 
 	private boolean sigueHiloBusqFicheros; // Variable l�gica para acabar el hilo de b�squeda de ficheros si procede
 	
-	private void buscarEnCarpeta() {
+	public void buscarEnCarpeta() {
 		bCarpeta.setEnabled( false );  // Desactiva el bot�n de carpeta hasta que se acabe la b�squeda
 		sigueHiloBusqFicheros = true;  // Marca el inicio del funcionamiento del hilo de b�squeda
 		mFicheros.clear(); // Borra los ficheros de la lista para recalcularlos

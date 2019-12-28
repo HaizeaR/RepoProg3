@@ -38,3 +38,13 @@
 [tipo] Invitado
 [emails] javier.bardem@gmail.com
 [FINUSUARIO]
+[USUARIO]
+[nick] jsbardem
+[password] bardemthebest
+[nombre] Javier
+[apellidos] Bardem
+[telefono] 607349552
+[fechaUltimoLogin] 0
+[tipo] Invitado
+[emails] javier.bardem@gmail.com
+[FINUSUARIO]

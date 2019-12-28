@@ -3,48 +3,57 @@ package int201811;
 
 import static org.junit.Assert.*;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.ConnectException;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.UnknownHostException;
+
 import org.junit.Test;
 
 // T1
 
 public class TablaTest {
 
-	private String[][] datosTest1 = {
-			{ "1", "1", "1", "1" },
-			{ "2", "2", "2", "2" },
-			{ "4", "4", "4", "4" },
-			{ "6", "6", "6", "6" },
+
+	String[][]  tabla1 = {
+			{"1","1","1","1"},
+			{"2","2","2","2"}, 
+			{"4","4","4","4"},
+			{"6","6","6","6"}
+			
 	};
+	
+	
+	
+	
+	
+	
+	// numero de filas y columnas es el mismo 
 	@Test
-	public void test() {
-		try { 
-			Tabla tabla = Tabla.processCSV( TablaTest.class.getResource( "testTabla1.csv" ).toURI().toURL() );
-			assertTrue( tablaOk( tabla, datosTest1 ) );
-			tabla = Tabla.processCSV( TablaTest.class.getResource( "testTabla2.csv" ).toURI().toURL() );
-			System.out.println( tabla );
-			assertTrue( tablaOk( tabla, datosTest1 ) );
-		} catch (Exception e) {
-			e.printStackTrace();
-			fail( "Excepción no esperada" );
-		}
+	public void mismoTamaño() throws ConnectException, MalformedURLException, UnknownHostException, FileNotFoundException, IOException, URISyntaxException {
+		Tabla t1 =  Tabla.processCSV(TablaTest.class.getResource("testTabla1.csv").toURI().toURL());
+		assertEquals(tabla1.length, t1.size() );
+		assertEquals(tabla1.length, t1.getWidth());
+		
+		
+		
+		
 	}
 	
-		private boolean tablaOk( Tabla tabla, String[][] datos ) {
-			assertEquals( tabla.size(), datos.length );
-			assertEquals( tabla.getWidth(), datos[0].length );
-			try {
-				for (int fila=0; fila<tabla.size(); fila++) {
-					for (int col=0; col<tabla.getWidth(); col++) {
-						if (!tabla.get(fila, col).equals( datos[fila][col])) {
-							return false;  // Si hay alguno distinto se corta y devuelve falso
-						}
-					}
-				}
-				return true;  // Si todos son iguales se devuelve true
-			} catch (IndexOutOfBoundsException e) {
-				return false; // Si hay cualquier error por acceso incorrecto, no son iguales: false
-			}
-		}
-
+	
+	
+	@Test
+	public void mismoTamaño2() throws ConnectException, MalformedURLException, UnknownHostException, FileNotFoundException, IOException, URISyntaxException {
+		Tabla t2 =  Tabla.processCSV(TablaTest.class.getResource("testTabla2.csv").toURI().toURL());
+		
+		assertEquals(tabla1.length, t2.size() );
+		// expected:<4> but was:<6>
+		
+		
+		assertEquals(tabla1.length, t2.getWidth());
+	}
+	
 }	
 
