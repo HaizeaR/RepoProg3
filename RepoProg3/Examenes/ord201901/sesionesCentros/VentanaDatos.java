@@ -4,6 +4,8 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -13,6 +15,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.swing.*;
+
+import ord201901.sesionesCentros.Datos.Sesion;
 
 /** Clase de ventana para muestra de datos de centros escolares y feedback de mentoras
  * @author andoni.eguiluz @ ingenieria.deusto.es
@@ -126,6 +130,96 @@ public class VentanaDatos extends JFrame {
 	
 	// T3
 	private void clickT3() {
+
+
+		// muestra para cada centro las sesiones 
+	
+
+
+//
+//		for ( CentroEd centro : Datos.centros.values()) {
+//
+//			//			double media = centro.getMediaSatisfEstuds(); 
+//			//			
+//			//			if (media > media_max ) {
+//			//				media_max = media; 
+//			//				System.out.println(media_max);
+//			//			}
+//			//			
+//
+//			// sesión del 1 al 6 
+//			for ( int i = 1 ; i <= 6 ; i++) {
+//				if (BD.sesionSelect(stat, centro.toString(),i ) >= 1 ) {
+//					System.out.println(centro.toString() + "  sesión: " + i + " -  " +BD.sesionSelect(stat, centro.toString(),i ) + " estudiantes");
+//
+//				}
+//
+//				//BD.sesionSelect(stat, centro.toString(),i );
+//
+//			}
+//
+//		}
+
+		
+		Connection conn = BD.initBD( "centrosEd.bd" );
+		Statement stat = BD.usarCrearTablasBD( conn );
+
+		String sentSQL = "";
+
+		try {
+			Statement stat2 = conn.createStatement();  // Para las consultas anidadas
+
+			sentSQL = "select * from centroEd order by satEst;";
+
+			int tope = 0 ;
+
+			ResultSet rs = stat.executeQuery( sentSQL );
+
+			String sentSQL2 = ""; // Para la segunda consulta
+
+
+			while(rs.next() && tope < 10) {
+				tope ++;
+				System.out.println("Centro " + rs.getString("cod") );
+
+				// SEGUNDA CONSULTA 
+				sentSQL2 = "select * from centrosesion where cod ='" + rs.getString("cod") + "' order by numSes;";
+				ResultSet rs2 = stat2.executeQuery( sentSQL2 );
+
+				while(rs2.next()) {
+					
+					// usando esto solo saldrían los que tienen más de 0 alumnos
+					if(rs2.getInt(3) > 0) {
+						System.out.println("Sesion: " + rs2.getString("numSes") + "  ES: " + rs2.getString(3));
+
+					}	
+				}
+				// cierre de segunda consulta
+				rs2.close();
+
+			}
+			// cierre primera consulta
+			rs.close();
+
+		}catch(SQLException e) {
+			e.printStackTrace();
+
+		}
+		BD.cerrarBD( conn,  stat );
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
 	}
 	
 	// Click botón de búsqueda de mentora

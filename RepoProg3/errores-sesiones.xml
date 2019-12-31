@@ -622,3 +622,2051 @@
   <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219744</millis>
+  <sequence>0</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/10/2018 21:09, ssn.eie@hpe.com, 1, Learreta Markin Berriz, , 16/10/2018, 12,11, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219747</millis>
+  <sequence>1</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [22/10/2018 11:51, zlacmil@teleko.eus, 1, Lauro Ikastola eta BHI Gernika, , 15/10/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219749</millis>
+  <sequence>2</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 21:22, oaeiba@gmail.com, 1, Urdaneta (sesion con dos grupos), , 25/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219751</millis>
+  <sequence>3</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 23:06, smn9.aiy@gmail.com, 1, Indautxuko Eskola, , 23/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219752</millis>
+  <sequence>4</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 7:32, ab@ormazabal.com, 1, BERRITXU, , 15/10/2018, , 5, 4, Berriatua eskola HHLH]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219753</millis>
+  <sequence>5</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 13:59, jncrail@opendeusto.es, 1, Zumaiena, , 26/10/2018, , 5, 4, Zumaiena (Maria eta Jose)]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219754</millis>
+  <sequence>6</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [29/10/2018 21:59, ssn.eie@hpe.com, 2, Leharreta MArkina, , 29/10/2018, 11,1, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219756</millis>
+  <sequence>7</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [01/11/2018 19:34, smn9.aiy@gmail.com, 2, Indautxu Eskola, , 30/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219757</millis>
+  <sequence>8</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 13:23, iax.aait@tecnalia.com, 1, The English School, , 05/11/2018, , 4, 3, The english School]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219757</millis>
+  <sequence>9</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 19:51, etblzao@gmail.com, 1, Jesuitinas La inmaculada - Bilbao, , 11/05/2018, , 4, 4, JESUITINAS - LA INMACULADA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219759</millis>
+  <sequence>10</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 11:09, aaacsao1@gmail.com, 1, Markonzaga (Sestao), , 06/11/2018, , 5, 4, MARKONZAGA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219760</millis>
+  <sequence>11</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 20:08, aatauaqe6@gmail.com, 1, Goikolanda (Erandio), , 08/11/2018, , 3, 4, CEIP GOIKOLANDA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219761</millis>
+  <sequence>12</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:01, oaeiba@gmail.com, 2, Colegio Urdaneta, , 30/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219762</millis>
+  <sequence>13</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:08, oaeiba@gmail.com, 3, Colegio Urdaneta, , 08/11/2018, 12,13, 5, 4, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219763</millis>
+  <sequence>14</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:45, zlacmil@teleko.eus, 2, Lauro Ikastola - BHI Gernika, , 05/11/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219763</millis>
+  <sequence>15</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:52, kr.lia@easo.eus, 1, Ibai Ikastola, , 19/10/2018, , 5, 2, Ibai ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219765</millis>
+  <sequence>16</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:57, kr.lia@easo.eus, 2, , , 26/10/2018, , 5, 4, ]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219767</millis>
+  <sequence>17</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 18:17, nhkr@gamevy.com, 1, Larramendi Ikastola, , 09/11/2018, , 5, 5, LARRAMENDI IKASTOLA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219768</millis>
+  <sequence>18</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 8:46, ssn.ee@bc3research.org, 2, Solokoetxe, , 30/10/2018, , 4, 4, SolokoetxeBHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219769</millis>
+  <sequence>19</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 9:55, mruxa@gmail.com, 2, Gernikako institutua, , 23/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219770</millis>
+  <sequence>20</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 20:45, zetipls@gmail.com, 1, Esclavas Fátima , , 09/11/2018, , 4, 4, Esclavas SC-Fátima]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219771</millis>
+  <sequence>21</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 8:53, lra@tzbz.coop, 1, Cervantes, , 12/11/2018, , 4, 4, CEIP MIGUEL DE CERVANTES HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219772</millis>
+  <sequence>22</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:25, etetric@hotmail.com, 1, Gernika BHI, , 17/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219774</millis>
+  <sequence>23</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:29, etetric@hotmail.com, 2, Gernika BHI, , 24/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219775</millis>
+  <sequence>24</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:33, etetric@hotmail.com, 3, Gernika BHI, , 07/11/2018, , 5, 5, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219776</millis>
+  <sequence>25</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 20:28, smn9.aiy@gmail.com, 3, Indautxu Eskola, , 06/11/2018, , 3, 3, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219777</millis>
+  <sequence>26</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [14/11/2018 11:50, mrl9@gmail.com, 2, Zurbaran, , 12/11/2018, , 4, 4, C.E.I.P. ZURBARAN HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:33:39</date>
+  <millis>1577637219778</millis>
+  <sequence>27</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319295</millis>
+  <sequence>1164</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/10/2018 21:09, ssn.eie@hpe.com, 1, Learreta Markin Berriz, , 16/10/2018, 12,11, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319296</millis>
+  <sequence>1165</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [22/10/2018 11:51, zlacmil@teleko.eus, 1, Lauro Ikastola eta BHI Gernika, , 15/10/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319296</millis>
+  <sequence>1166</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 21:22, oaeiba@gmail.com, 1, Urdaneta (sesion con dos grupos), , 25/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319299</millis>
+  <sequence>1167</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 23:06, smn9.aiy@gmail.com, 1, Indautxuko Eskola, , 23/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319299</millis>
+  <sequence>1168</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 7:32, ab@ormazabal.com, 1, BERRITXU, , 15/10/2018, , 5, 4, Berriatua eskola HHLH]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319299</millis>
+  <sequence>1169</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 13:59, jncrail@opendeusto.es, 1, Zumaiena, , 26/10/2018, , 5, 4, Zumaiena (Maria eta Jose)]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319300</millis>
+  <sequence>1170</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [29/10/2018 21:59, ssn.eie@hpe.com, 2, Leharreta MArkina, , 29/10/2018, 11,1, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319300</millis>
+  <sequence>1171</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [01/11/2018 19:34, smn9.aiy@gmail.com, 2, Indautxu Eskola, , 30/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1172</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 13:23, iax.aait@tecnalia.com, 1, The English School, , 05/11/2018, , 4, 3, The english School]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1173</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 19:51, etblzao@gmail.com, 1, Jesuitinas La inmaculada - Bilbao, , 11/05/2018, , 4, 4, JESUITINAS - LA INMACULADA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1174</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 11:09, aaacsao1@gmail.com, 1, Markonzaga (Sestao), , 06/11/2018, , 5, 4, MARKONZAGA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1175</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 20:08, aatauaqe6@gmail.com, 1, Goikolanda (Erandio), , 08/11/2018, , 3, 4, CEIP GOIKOLANDA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1176</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:01, oaeiba@gmail.com, 2, Colegio Urdaneta, , 30/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1177</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:08, oaeiba@gmail.com, 3, Colegio Urdaneta, , 08/11/2018, 12,13, 5, 4, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1178</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:45, zlacmil@teleko.eus, 2, Lauro Ikastola - BHI Gernika, , 05/11/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319301</millis>
+  <sequence>1179</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:52, kr.lia@easo.eus, 1, Ibai Ikastola, , 19/10/2018, , 5, 2, Ibai ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319302</millis>
+  <sequence>1180</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:57, kr.lia@easo.eus, 2, , , 26/10/2018, , 5, 4, ]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319302</millis>
+  <sequence>1181</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 18:17, nhkr@gamevy.com, 1, Larramendi Ikastola, , 09/11/2018, , 5, 5, LARRAMENDI IKASTOLA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319302</millis>
+  <sequence>1182</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 8:46, ssn.ee@bc3research.org, 2, Solokoetxe, , 30/10/2018, , 4, 4, SolokoetxeBHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319302</millis>
+  <sequence>1183</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 9:55, mruxa@gmail.com, 2, Gernikako institutua, , 23/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319303</millis>
+  <sequence>1184</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 20:45, zetipls@gmail.com, 1, Esclavas Fátima , , 09/11/2018, , 4, 4, Esclavas SC-Fátima]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319303</millis>
+  <sequence>1185</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 8:53, lra@tzbz.coop, 1, Cervantes, , 12/11/2018, , 4, 4, CEIP MIGUEL DE CERVANTES HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319303</millis>
+  <sequence>1186</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:25, etetric@hotmail.com, 1, Gernika BHI, , 17/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319303</millis>
+  <sequence>1187</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:29, etetric@hotmail.com, 2, Gernika BHI, , 24/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319303</millis>
+  <sequence>1188</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:33, etetric@hotmail.com, 3, Gernika BHI, , 07/11/2018, , 5, 5, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319303</millis>
+  <sequence>1189</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 20:28, smn9.aiy@gmail.com, 3, Indautxu Eskola, , 06/11/2018, , 3, 3, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319304</millis>
+  <sequence>1190</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [14/11/2018 11:50, mrl9@gmail.com, 2, Zurbaran, , 12/11/2018, , 4, 4, C.E.I.P. ZURBARAN HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:19</date>
+  <millis>1577637319304</millis>
+  <sequence>1191</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355346</millis>
+  <sequence>998</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/10/2018 21:09, ssn.eie@hpe.com, 1, Learreta Markin Berriz, , 16/10/2018, 12,11, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355347</millis>
+  <sequence>999</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [22/10/2018 11:51, zlacmil@teleko.eus, 1, Lauro Ikastola eta BHI Gernika, , 15/10/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355347</millis>
+  <sequence>1000</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 21:22, oaeiba@gmail.com, 1, Urdaneta (sesion con dos grupos), , 25/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355348</millis>
+  <sequence>1001</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 23:06, smn9.aiy@gmail.com, 1, Indautxuko Eskola, , 23/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355349</millis>
+  <sequence>1002</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 7:32, ab@ormazabal.com, 1, BERRITXU, , 15/10/2018, , 5, 4, Berriatua eskola HHLH]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355349</millis>
+  <sequence>1003</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 13:59, jncrail@opendeusto.es, 1, Zumaiena, , 26/10/2018, , 5, 4, Zumaiena (Maria eta Jose)]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355350</millis>
+  <sequence>1004</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [29/10/2018 21:59, ssn.eie@hpe.com, 2, Leharreta MArkina, , 29/10/2018, 11,1, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355350</millis>
+  <sequence>1005</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [01/11/2018 19:34, smn9.aiy@gmail.com, 2, Indautxu Eskola, , 30/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355351</millis>
+  <sequence>1006</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 13:23, iax.aait@tecnalia.com, 1, The English School, , 05/11/2018, , 4, 3, The english School]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355351</millis>
+  <sequence>1007</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 19:51, etblzao@gmail.com, 1, Jesuitinas La inmaculada - Bilbao, , 11/05/2018, , 4, 4, JESUITINAS - LA INMACULADA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355351</millis>
+  <sequence>1008</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 11:09, aaacsao1@gmail.com, 1, Markonzaga (Sestao), , 06/11/2018, , 5, 4, MARKONZAGA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355351</millis>
+  <sequence>1009</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 20:08, aatauaqe6@gmail.com, 1, Goikolanda (Erandio), , 08/11/2018, , 3, 4, CEIP GOIKOLANDA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355352</millis>
+  <sequence>1010</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:01, oaeiba@gmail.com, 2, Colegio Urdaneta, , 30/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355352</millis>
+  <sequence>1011</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:08, oaeiba@gmail.com, 3, Colegio Urdaneta, , 08/11/2018, 12,13, 5, 4, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355352</millis>
+  <sequence>1012</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:45, zlacmil@teleko.eus, 2, Lauro Ikastola - BHI Gernika, , 05/11/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355352</millis>
+  <sequence>1013</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:52, kr.lia@easo.eus, 1, Ibai Ikastola, , 19/10/2018, , 5, 2, Ibai ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355352</millis>
+  <sequence>1014</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:57, kr.lia@easo.eus, 2, , , 26/10/2018, , 5, 4, ]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355353</millis>
+  <sequence>1015</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 18:17, nhkr@gamevy.com, 1, Larramendi Ikastola, , 09/11/2018, , 5, 5, LARRAMENDI IKASTOLA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355353</millis>
+  <sequence>1016</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 8:46, ssn.ee@bc3research.org, 2, Solokoetxe, , 30/10/2018, , 4, 4, SolokoetxeBHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355353</millis>
+  <sequence>1017</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 9:55, mruxa@gmail.com, 2, Gernikako institutua, , 23/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355353</millis>
+  <sequence>1018</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 20:45, zetipls@gmail.com, 1, Esclavas Fátima , , 09/11/2018, , 4, 4, Esclavas SC-Fátima]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355353</millis>
+  <sequence>1019</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 8:53, lra@tzbz.coop, 1, Cervantes, , 12/11/2018, , 4, 4, CEIP MIGUEL DE CERVANTES HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355354</millis>
+  <sequence>1020</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:25, etetric@hotmail.com, 1, Gernika BHI, , 17/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355354</millis>
+  <sequence>1021</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:29, etetric@hotmail.com, 2, Gernika BHI, , 24/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355354</millis>
+  <sequence>1022</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:33, etetric@hotmail.com, 3, Gernika BHI, , 07/11/2018, , 5, 5, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355354</millis>
+  <sequence>1023</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 20:28, smn9.aiy@gmail.com, 3, Indautxu Eskola, , 06/11/2018, , 3, 3, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355355</millis>
+  <sequence>1024</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [14/11/2018 11:50, mrl9@gmail.com, 2, Zurbaran, , 12/11/2018, , 4, 4, C.E.I.P. ZURBARAN HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:35:55</date>
+  <millis>1577637355355</millis>
+  <sequence>1025</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621837</millis>
+  <sequence>0</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/10/2018 21:09, ssn.eie@hpe.com, 1, Learreta Markin Berriz, , 16/10/2018, 12,11, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621840</millis>
+  <sequence>1</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [22/10/2018 11:51, zlacmil@teleko.eus, 1, Lauro Ikastola eta BHI Gernika, , 15/10/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621842</millis>
+  <sequence>2</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 21:22, oaeiba@gmail.com, 1, Urdaneta (sesion con dos grupos), , 25/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621844</millis>
+  <sequence>3</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 23:06, smn9.aiy@gmail.com, 1, Indautxuko Eskola, , 23/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621845</millis>
+  <sequence>4</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 7:32, ab@ormazabal.com, 1, BERRITXU, , 15/10/2018, , 5, 4, Berriatua eskola HHLH]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621846</millis>
+  <sequence>5</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 13:59, jncrail@opendeusto.es, 1, Zumaiena, , 26/10/2018, , 5, 4, Zumaiena (Maria eta Jose)]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621846</millis>
+  <sequence>6</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [29/10/2018 21:59, ssn.eie@hpe.com, 2, Leharreta MArkina, , 29/10/2018, 11,1, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621848</millis>
+  <sequence>7</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [01/11/2018 19:34, smn9.aiy@gmail.com, 2, Indautxu Eskola, , 30/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621849</millis>
+  <sequence>8</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 13:23, iax.aait@tecnalia.com, 1, The English School, , 05/11/2018, , 4, 3, The english School]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621850</millis>
+  <sequence>9</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 19:51, etblzao@gmail.com, 1, Jesuitinas La inmaculada - Bilbao, , 11/05/2018, , 4, 4, JESUITINAS - LA INMACULADA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621852</millis>
+  <sequence>10</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 11:09, aaacsao1@gmail.com, 1, Markonzaga (Sestao), , 06/11/2018, , 5, 4, MARKONZAGA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621852</millis>
+  <sequence>11</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 20:08, aatauaqe6@gmail.com, 1, Goikolanda (Erandio), , 08/11/2018, , 3, 4, CEIP GOIKOLANDA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621853</millis>
+  <sequence>12</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:01, oaeiba@gmail.com, 2, Colegio Urdaneta, , 30/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621854</millis>
+  <sequence>13</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:08, oaeiba@gmail.com, 3, Colegio Urdaneta, , 08/11/2018, 12,13, 5, 4, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621855</millis>
+  <sequence>14</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:45, zlacmil@teleko.eus, 2, Lauro Ikastola - BHI Gernika, , 05/11/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621856</millis>
+  <sequence>15</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:52, kr.lia@easo.eus, 1, Ibai Ikastola, , 19/10/2018, , 5, 2, Ibai ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621857</millis>
+  <sequence>16</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:57, kr.lia@easo.eus, 2, , , 26/10/2018, , 5, 4, ]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621859</millis>
+  <sequence>17</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 18:17, nhkr@gamevy.com, 1, Larramendi Ikastola, , 09/11/2018, , 5, 5, LARRAMENDI IKASTOLA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621860</millis>
+  <sequence>18</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 8:46, ssn.ee@bc3research.org, 2, Solokoetxe, , 30/10/2018, , 4, 4, SolokoetxeBHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621861</millis>
+  <sequence>19</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 9:55, mruxa@gmail.com, 2, Gernikako institutua, , 23/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621862</millis>
+  <sequence>20</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 20:45, zetipls@gmail.com, 1, Esclavas Fátima , , 09/11/2018, , 4, 4, Esclavas SC-Fátima]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621863</millis>
+  <sequence>21</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 8:53, lra@tzbz.coop, 1, Cervantes, , 12/11/2018, , 4, 4, CEIP MIGUEL DE CERVANTES HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621863</millis>
+  <sequence>22</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:25, etetric@hotmail.com, 1, Gernika BHI, , 17/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621864</millis>
+  <sequence>23</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:29, etetric@hotmail.com, 2, Gernika BHI, , 24/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621866</millis>
+  <sequence>24</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:33, etetric@hotmail.com, 3, Gernika BHI, , 07/11/2018, , 5, 5, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621866</millis>
+  <sequence>25</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 20:28, smn9.aiy@gmail.com, 3, Indautxu Eskola, , 06/11/2018, , 3, 3, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621867</millis>
+  <sequence>26</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [14/11/2018 11:50, mrl9@gmail.com, 2, Zurbaran, , 12/11/2018, , 4, 4, C.E.I.P. ZURBARAN HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:40:21</date>
+  <millis>1577637621868</millis>
+  <sequence>27</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906603</millis>
+  <sequence>0</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/10/2018 21:09, ssn.eie@hpe.com, 1, Learreta Markin Berriz, , 16/10/2018, 12,11, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906607</millis>
+  <sequence>1</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [22/10/2018 11:51, zlacmil@teleko.eus, 1, Lauro Ikastola eta BHI Gernika, , 15/10/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906608</millis>
+  <sequence>2</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 21:22, oaeiba@gmail.com, 1, Urdaneta (sesion con dos grupos), , 25/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906609</millis>
+  <sequence>3</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 23:06, smn9.aiy@gmail.com, 1, Indautxuko Eskola, , 23/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906610</millis>
+  <sequence>4</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 7:32, ab@ormazabal.com, 1, BERRITXU, , 15/10/2018, , 5, 4, Berriatua eskola HHLH]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906612</millis>
+  <sequence>5</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 13:59, jncrail@opendeusto.es, 1, Zumaiena, , 26/10/2018, , 5, 4, Zumaiena (Maria eta Jose)]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906613</millis>
+  <sequence>6</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [29/10/2018 21:59, ssn.eie@hpe.com, 2, Leharreta MArkina, , 29/10/2018, 11,1, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906614</millis>
+  <sequence>7</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [01/11/2018 19:34, smn9.aiy@gmail.com, 2, Indautxu Eskola, , 30/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906615</millis>
+  <sequence>8</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 13:23, iax.aait@tecnalia.com, 1, The English School, , 05/11/2018, , 4, 3, The english School]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906616</millis>
+  <sequence>9</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 19:51, etblzao@gmail.com, 1, Jesuitinas La inmaculada - Bilbao, , 11/05/2018, , 4, 4, JESUITINAS - LA INMACULADA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906617</millis>
+  <sequence>10</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 11:09, aaacsao1@gmail.com, 1, Markonzaga (Sestao), , 06/11/2018, , 5, 4, MARKONZAGA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906618</millis>
+  <sequence>11</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 20:08, aatauaqe6@gmail.com, 1, Goikolanda (Erandio), , 08/11/2018, , 3, 4, CEIP GOIKOLANDA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906618</millis>
+  <sequence>12</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:01, oaeiba@gmail.com, 2, Colegio Urdaneta, , 30/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906619</millis>
+  <sequence>13</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:08, oaeiba@gmail.com, 3, Colegio Urdaneta, , 08/11/2018, 12,13, 5, 4, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906620</millis>
+  <sequence>14</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:45, zlacmil@teleko.eus, 2, Lauro Ikastola - BHI Gernika, , 05/11/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906621</millis>
+  <sequence>15</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:52, kr.lia@easo.eus, 1, Ibai Ikastola, , 19/10/2018, , 5, 2, Ibai ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906622</millis>
+  <sequence>16</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:57, kr.lia@easo.eus, 2, , , 26/10/2018, , 5, 4, ]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906623</millis>
+  <sequence>17</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 18:17, nhkr@gamevy.com, 1, Larramendi Ikastola, , 09/11/2018, , 5, 5, LARRAMENDI IKASTOLA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906624</millis>
+  <sequence>18</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 8:46, ssn.ee@bc3research.org, 2, Solokoetxe, , 30/10/2018, , 4, 4, SolokoetxeBHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906625</millis>
+  <sequence>19</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 9:55, mruxa@gmail.com, 2, Gernikako institutua, , 23/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906625</millis>
+  <sequence>20</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 20:45, zetipls@gmail.com, 1, Esclavas Fátima , , 09/11/2018, , 4, 4, Esclavas SC-Fátima]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906626</millis>
+  <sequence>21</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 8:53, lra@tzbz.coop, 1, Cervantes, , 12/11/2018, , 4, 4, CEIP MIGUEL DE CERVANTES HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906627</millis>
+  <sequence>22</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:25, etetric@hotmail.com, 1, Gernika BHI, , 17/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906628</millis>
+  <sequence>23</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:29, etetric@hotmail.com, 2, Gernika BHI, , 24/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906629</millis>
+  <sequence>24</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:33, etetric@hotmail.com, 3, Gernika BHI, , 07/11/2018, , 5, 5, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906631</millis>
+  <sequence>25</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 20:28, smn9.aiy@gmail.com, 3, Indautxu Eskola, , 06/11/2018, , 3, 3, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906632</millis>
+  <sequence>26</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [14/11/2018 11:50, mrl9@gmail.com, 2, Zurbaran, , 12/11/2018, , 4, 4, C.E.I.P. ZURBARAN HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:45:06</date>
+  <millis>1577637906633</millis>
+  <sequence>27</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004625</millis>
+  <sequence>0</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/10/2018 21:09, ssn.eie@hpe.com, 1, Learreta Markin Berriz, , 16/10/2018, 12,11, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004629</millis>
+  <sequence>1</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [22/10/2018 11:51, zlacmil@teleko.eus, 1, Lauro Ikastola eta BHI Gernika, , 15/10/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004630</millis>
+  <sequence>2</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 21:22, oaeiba@gmail.com, 1, Urdaneta (sesion con dos grupos), , 25/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004632</millis>
+  <sequence>3</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [25/10/2018 23:06, smn9.aiy@gmail.com, 1, Indautxuko Eskola, , 23/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004633</millis>
+  <sequence>4</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 7:32, ab@ormazabal.com, 1, BERRITXU, , 15/10/2018, , 5, 4, Berriatua eskola HHLH]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004634</millis>
+  <sequence>5</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [26/10/2018 13:59, jncrail@opendeusto.es, 1, Zumaiena, , 26/10/2018, , 5, 4, Zumaiena (Maria eta Jose)]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004635</millis>
+  <sequence>6</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [29/10/2018 21:59, ssn.eie@hpe.com, 2, Leharreta MArkina, , 29/10/2018, 11,1, 5, 5, LEARRETA MARKINA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004637</millis>
+  <sequence>7</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [01/11/2018 19:34, smn9.aiy@gmail.com, 2, Indautxu Eskola, , 30/10/2018, , 4, 4, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004638</millis>
+  <sequence>8</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 13:23, iax.aait@tecnalia.com, 1, The English School, , 05/11/2018, , 4, 3, The english School]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004639</millis>
+  <sequence>9</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [05/11/2018 19:51, etblzao@gmail.com, 1, Jesuitinas La inmaculada - Bilbao, , 11/05/2018, , 4, 4, JESUITINAS - LA INMACULADA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004640</millis>
+  <sequence>10</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 11:09, aaacsao1@gmail.com, 1, Markonzaga (Sestao), , 06/11/2018, , 5, 4, MARKONZAGA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004641</millis>
+  <sequence>11</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 20:08, aatauaqe6@gmail.com, 1, Goikolanda (Erandio), , 08/11/2018, , 3, 4, CEIP GOIKOLANDA HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004642</millis>
+  <sequence>12</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:01, oaeiba@gmail.com, 2, Colegio Urdaneta, , 30/10/2018, , 5, 5, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004644</millis>
+  <sequence>13</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [08/11/2018 22:08, oaeiba@gmail.com, 3, Colegio Urdaneta, , 08/11/2018, 12,13, 5, 4, Urdaneta]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004644</millis>
+  <sequence>14</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:45, zlacmil@teleko.eus, 2, Lauro Ikastola - BHI Gernika, , 05/11/2018, , 4, 4, Lauro Ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004645</millis>
+  <sequence>15</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:52, kr.lia@easo.eus, 1, Ibai Ikastola, , 19/10/2018, , 5, 2, Ibai ikastola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004646</millis>
+  <sequence>16</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 9:57, kr.lia@easo.eus, 2, , , 26/10/2018, , 5, 4, ]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004647</millis>
+  <sequence>17</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [09/11/2018 18:17, nhkr@gamevy.com, 1, Larramendi Ikastola, , 09/11/2018, , 5, 5, LARRAMENDI IKASTOLA]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004649</millis>
+  <sequence>18</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 8:46, ssn.ee@bc3research.org, 2, Solokoetxe, , 30/10/2018, , 4, 4, SolokoetxeBHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004650</millis>
+  <sequence>19</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 9:55, mruxa@gmail.com, 2, Gernikako institutua, , 23/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004651</millis>
+  <sequence>20</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [12/11/2018 20:45, zetipls@gmail.com, 1, Esclavas Fátima , , 09/11/2018, , 4, 4, Esclavas SC-Fátima]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004652</millis>
+  <sequence>21</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 8:53, lra@tzbz.coop, 1, Cervantes, , 12/11/2018, , 4, 4, CEIP MIGUEL DE CERVANTES HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004653</millis>
+  <sequence>22</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:25, etetric@hotmail.com, 1, Gernika BHI, , 17/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004653</millis>
+  <sequence>23</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:29, etetric@hotmail.com, 2, Gernika BHI, , 24/10/2018, , 4, 4, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004654</millis>
+  <sequence>24</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 14:33, etetric@hotmail.com, 3, Gernika BHI, , 07/11/2018, , 5, 5, Gernika BHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004655</millis>
+  <sequence>25</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [13/11/2018 20:28, smn9.aiy@gmail.com, 3, Indautxu Eskola, , 06/11/2018, , 3, 3, Indautxuko eskola]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004656</millis>
+  <sequence>26</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [14/11/2018 11:50, mrl9@gmail.com, 2, Zurbaran, , 12/11/2018, , 4, 4, C.E.I.P. ZURBARAN HLHI]</message>
+</record>
+<record>
+  <date>2019-12-29T17:46:44</date>
+  <millis>1577638004657</millis>
+  <sequence>27</sequence>
+  <logger>Seguimiento sesiones</logger>
+  <level>WARNING</level>
+  <class>ord201901.sesionesCentros.VentanaDatos</class>
+  <method>lambda$1</method>
+  <thread>14</thread>
+  <message>Error en línea de seguimiento: [16/11/2018 14:25, iza.iea@gmail.com, 3, Mercedarias, , 15/11/2018, , 3, 4, ]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

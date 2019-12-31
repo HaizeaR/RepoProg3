@@ -1,6 +1,13 @@
 package ord201801;
 
 import java.awt.Color;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import ord201801.item.Arbol;
+
 
 
 /** Clase con m�todos est�ticos para implementar algunas de las tareas del examen
@@ -9,11 +16,43 @@ import java.awt.Color;
 public class Tareas {
 	
 	// TAREA 4 - Atributos necesarios para la tarea 4
+	
+	private static Connection conn = null;
+	private static Statement stat = null;
+	
 	public static void tarea4() {
 		ventana = EdicionZonasGPS.getVentana();  // Atributo de acceso a la ventana
 		// TAREA 4 - C�digo de conexi�n y de actualizaci�n de base de datos
+		
+		
+		
+		
 		// 1.- Conexi�n de base de datos (que se conecte solo la primera vez)
+		if (conn == null) {
+			conn = BD.initBD("arboles.bd" );
+			try {
+				stat = conn.createStatement();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+			for (int i = 0 ; i < GrupoZonas.jardinesErandio.size() - 1; i++) {
+				
+			}
+	
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
 		// 2.- Actualizaci�n de �rboles de zona seleccionada
+		BD.cerrarBD(conn, stat);
 		ventana.lMensaje.setText( "Finalizado proceso de BD." );
 	}
 	

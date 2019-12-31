@@ -238,6 +238,11 @@ public class BD {
 		}
 	}
 	
+	
+	
+	
+	
+	
 	/** Modifica una sesión en la tabla abierta de BD, usando la sentencia UPDATE de SQL
 	 * @param st	Sentencia ya abierta de Base de Datos (con la estructura de tabla correspondiente a la sesión)
 	 * @param codCentro	Código de centro a modificar en la base de datos
