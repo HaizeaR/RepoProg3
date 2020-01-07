@@ -398,6 +398,66 @@ public class VentanaProcesoLogs extends JFrame {
 		}
 	}
 
+	
+	// RECURSIVIDAD 
+	// CB 
+	//
+	//if sig evento >= num eventos en lista 
+	
+	//CR
+	// Recorra 
+	
+	
+	
+	
+	private void recEventos(DefaultListModel<Evento> mEventos, ArrayList<String> lEventos, ArrayList<Integer> lLineas, int sigEvento) {
+		
+		
+		if(sigEvento >= mEventos.size()) return; 
+		Evento evento = mEventos.getElementAt(sigEvento); 
+		
+		if (lEventos.isEmpty() || evento.getLinea()<lLineas.get(lLineas.size()-1)) {
+			// Si la lista de eventos está vacia o el fichero no está escrito aún 
+			lEventos.clear(); 
+			lLineas.clear();
+			 
+		}
+		// añade el evento a la lista
+		lEventos.add(evento.getClass().getSimpleName()); 
+		// Añade linea a lista
+		lLineas.add(evento.getLinea()); 
+		
+		// Reducir la lista si hay más de 20 lineas de distancia
+		
+		while((lLineas.get(lLineas.size()-1) - lLineas.get(0)) > 20) {
+			// si la posición final - la inicial es > 20 quita elementos de la lista 
+			// para reducir borramos los elementos inicales 
+			
+			lEventos.remove(0); 
+			lLineas.remove(0); 
+		}
+		
+		recEventos(mEventos, lEventos,lLineas, sigEvento+1);
+		// Falta meterlo en el MAPA 
+		// 
+		
+
+		
+		
+		
+		
+			
+			
+		}
+
+	
+	
+		
+	
+	
+	
+	
+	
 		
 	// Otros
 		

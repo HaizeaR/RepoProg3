@@ -7,6 +7,9 @@ import java.util.*;
 
 import javax.swing.*;
 
+import com.sun.org.apache.bcel.internal.generic.F2D;
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
 /** Clase controladora de la ventana de sprites
  * @author andoni.eguiluz @ ingenieria.deusto.es
  */
@@ -133,29 +136,102 @@ public class ControladorVentanaSprites {
 		 * @param dir	Carpeta en la que buscar ficheros. Si es nula o no existe, se deja la lista de secuencia vacía
 		 */
 		void cargaFicherosGraficosOrdenados(File dir) {
+			
+			// SOLO BUSCA EN CARPETA 
+//			miVentana.mSprites.clear();
+//			if (dir==null || !dir.exists()) return;
+//			File[] fics = dir.listFiles(); // Ficheros de la carpeta
+//			Arrays.sort( fics, new Comparator<File>() {  // Ordena los ficheros por nombre
+//				@Override
+//				public int compare(File o1, File o2) {
+//					return o1.getName().compareTo( o2.getName() );
+//				}
+//			});
+//			for (File f2 : fics) { // Recorre los ficheros y añade los pngs
+//				if (f2.getName().toLowerCase().endsWith("png"))  // Añadir más extensiones si procede
+//					miVentana.mSprites.addElement( f2 );
+//			}
+//			
+	
 			miVentana.mSprites.clear();
-			if (dir==null || !dir.exists()) return;
-			File[] fics = dir.listFiles(); // Ficheros de la carpeta
-			Arrays.sort( fics, new Comparator<File>() {  // Ordena los ficheros por nombre
-				@Override
-				public int compare(File o1, File o2) {
-					return o1.getName().compareTo( o2.getName() );
+			if (dir==null || !dir.exists() || !dir.isDirectory()) return;
+			int numFicherosRecorridos = cargaCarpeta( dir, 1 );
+			System.out.println( "Número de ficheros procesados: " + numFicherosRecorridos );
+			
+			
+			
+			
+
+		};
+			private int cargaCarpeta(File dir, int nivel ) {
+				
+				
+				// ESTE PROCESO SOLO FUNCIONA HASTA 3 subcarpetas
+				
+				if (nivel > 3) return 0; 
+				
+				
+				// Creamos una lista que contenga todas las carpetas 
+				
+				File[] fics = dir.listFiles(); // contiene fichero o directorio 
+				
+				// Ordenar para sacar primero ficheros y luego carpetas 
+				
+				Arrays.sort(fics, new Comparator<File>() {
+					
+					// metodo que ordena 
+					// Ficheros y luego ya Carpetas 
+					
+					@Override
+					public int compare(File o1, File o2) {
+						// esto ordena de todas las formas indicadas en el enunciado
+						if (o1.isFile() && o2.isDirectory()) return -1;  // Ficheros antes 
+						else if (o1.isDirectory() && o2.isFile()) return +1;  // Carpetas después
+						return o1.getName().compareTo( o2.getName() );  // Si son iguales, por nombre
+					}
+				
+					
+				// priemro recorro todos los ficheros 
+				});
+
+				int pos = 0;
+
+				while(pos < fics.length && fics[pos].isFile()) {
+					File f1 = fics[pos]; 
+					if (f1.getName().toLowerCase().endsWith("png")) {
+						// Añadir más extensiones si procede
+						miVentana.mSprites.addElement( f1 );
+						if (miVentana.mSprites.size()>=50) {  // Si ya hay 50 se corta la búsqueda
+							return pos+1;
+						}
+					}
+					pos++;
+			
 				}
-			});
-			for (File f2 : fics) { // Recorre los ficheros y añade los pngs
-				if (f2.getName().toLowerCase().endsWith("png"))  // Añadir más extensiones si procede
-					miVentana.mSprites.addElement( f2 );
-			}
-			// O lo que sería lo mismo....
-			// for (File f2 : dir.listFiles( new FilenameFilter() {
-			// 	@Override
-			// 	public boolean accept(File dir, String name) {
-			// 		return (name.toLowerCase().endsWith("png"));  // Añadir más extensiones si procede
-			// 	}
-			// 	})) {
-			// 	miVentana.mSprites.addElement( f2 );
-			// }
-		}
+
+	
+				int carpeta = pos; 
+				while (pos < fics.length && fics[pos].isDirectory()) {
+					carpeta += cargaCarpeta(fics[pos], nivel+1);
+					if (miVentana.mSprites.size()>=50) return carpeta;  // Si ya hay 50 se corta la búsqueda
+					pos++;
+				}
+				return carpeta; 
+				
+				
+				
+				
+			};
+
+
+				
+				 
+				 
+				
+			
+			
+			
+		
 
 	/** Doble click en lista de sprites (1) */
 	public void dobleClickListaSprites() {

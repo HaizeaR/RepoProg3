@@ -15,8 +15,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
 
 import ord201901.sesionesCentros.Datos.Sesion;
+import sun.swing.table.DefaultTableCellHeaderRenderer;
 
 /** Clase de ventana para muestra de datos de centros escolares y feedback de mentoras
  * @author andoni.eguiluz @ ingenieria.deusto.es
@@ -37,6 +39,9 @@ public class VentanaDatos extends JFrame {
 		// Creación de componentes y contenedores
 		JPanel pBotonera = new JPanel();
 		tDatos = new JTable();
+		
+		
+	
 		JButton bCargaFeedback = new JButton( "Carga feedback" );
 		JButton bGuardaBD = new JButton( "Guardar en BD" );
 		JButton bBuscaMentora = new JButton( "Buscar mentora" );
@@ -82,10 +87,121 @@ public class VentanaDatos extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				clickT3();
 			}
+			
+			
+			
 		});
+
 		// Cierre
 		setLocationRelativeTo( null );  // Centra la ventana en el escritorio
+		
+		// cremaos un render y dentro de el relaizamos los cmabios que nos piden 
+		tDatos.setDefaultRenderer( Object.class, new DefaultTableCellRenderer() {
+			private JProgressBar pb = new JProgressBar( 0, 500 );
+			private JLabel lVacia = new JLabel( "" );
+			private JLabel lError = new JLabel( "ERROR" );
+			public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+				// si estoy en la columna 2 0 3 que son las qu hacen referencia a medias de satisfacción 
+				// parte 3  donde se incluye el pb 
+				if (column==2 || column==3) {
+					try {
+						if (value.toString().isEmpty()) return lVacia; // si está vacia no pongas pb dejala vacia
+						
+						double val = Double.parseDouble( value.toString() ); // convierte el valor que lo sacamos ocmo un string en un double 
+						// añade el valor al pb  y lo multiplica por 100 
+						pb.setValue( (int) val*100 );
+						
+						return pb;
+					} catch (Exception e) {}
+					return new JLabel( "Error" );
+					
+				} else {
+					// definir el elemento comp para poder hacer modificaciones a los colores
+					Component comp = super.getTableCellRendererComponent( table, value, isSelected, hasFocus, row, column );
+					if (value instanceof String) {
+						// hace que el valor sea un STRING
+						String string = (String) value;
+						comp.setBackground( Color.white );
+						comp.setForeground( Color.black );
+						// centra en la tabla los nuemros 
+						((JLabel)comp).setHorizontalAlignment( JLabel.LEFT );
+						// si el valor de la casilla es 0 
+						if ("0".equals(string)) {
+							// cambia el color a gris 
+							comp.setForeground( Color.LIGHT_GRAY ); 
+							// los centra en la tabla los numeros ( aquellos que sean 0 ) 
+							((JLabel)comp).setHorizontalAlignment( JLabel.CENTER );
+						}
+						if (column==1 || column>=4 && column<=9) {
+							// centra en la tabla los numeros ( de las columnas 1 y las que esten entre 4 y 9 
+							((JLabel)comp).setHorizontalAlignment( JLabel.CENTER );
+						}
+					}
+					return comp;
+				}
+			}
+		} );
+		
+		
+		// parte 4 de la tarea 
+		tDatos.addMouseMotionListener( new MouseMotionAdapter() {
+			@Override
+			
+			// cuando el ratón pase por encima de pb tiene que mostrar el dato en el lMensaje 
+			
+			public void mouseMoved(MouseEvent e) {
+				// saca los puntos de fila y columna 
+				int fila = tDatos.rowAtPoint( e.getPoint() );
+				int columna = tDatos.columnAtPoint( e.getPoint() );
+				// si estoy en una de las cilumans que tiene el pb 
+				// la 2 0 la 3 
+				if (columna==2 || columna==3) {
+					// si no tengo valor en esa fila columna no pongas nada en el lMensaje
+					if (tDatos.getModel().getValueAt( fila, columna ).toString().isEmpty()) {
+						lMensaje.setText( " " );
+					} else {
+						// si tenfo un dato completa el lMensaje con el valor 
+						lMensaje.setText( "Valor de satisfacción: " + tDatos.getModel().getValueAt( fila, columna )  );
+					}
+				} else {
+					lMensaje.setText( " " );
+				}
+			}
+		});
+		
+		// parte 5 , hacer doble click 
+		
+		tDatos.addMouseListener( new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				
+				if (e.getClickCount()>=2) { // Doble click
+					
+					// guarda la posición de la fila y la columna 
+					
+					int fila = tDatos.rowAtPoint( e.getPoint() );
+					int columna = tDatos.columnAtPoint( e.getPoint() );
+					
+					// si estamos hacienod doble click en la primera columna
+					if (columna==0) {
+						// guarda el valor de esa columna 
+						String centro = tDatos.getModel().getValueAt( fila, columna ).toString();
+						
+						// saca los valores para ese centro  en concreto 
+						CentroEd centroEd = Datos.centros.get( centro );
+						// muestra los datos obtenidos ( centro) en un JoptionPane 
+						JOptionPane.showMessageDialog( VentanaDatos.this, "Centro " + centro + "\nAbreviaturas: " + centroEd.getlAbrevs(), "Información de centro", JOptionPane.INFORMATION_MESSAGE );
+						centroEd.getlAbrevs();
+					} else {
+						// si no tenemos centro que no muestre nada 
+						lMensaje.setText( " " );
+					}
+				}
+			}
+		});
 	}
+	
+	
 	
 	/** Asigna una tabla de datos a la JTable principal de la ventana
 	 * @param tabla	Tabla de datos a visualizar
@@ -328,9 +444,12 @@ public class VentanaDatos extends JFrame {
 			int columnaSatEst = mentoras.getColumnWithHeader( "satisfacción de los chicas/os", false );
 			for (int fila=0; fila<mentoras.size(); fila++) {
 				try {
+					
 					int numSesion = Integer.parseInt( mentoras.get( fila, columnaSesion ) );
 					String codCentro = mentoras.get( fila, columnaCentro );
+					
 					int numEstuds = Integer.parseInt( mentoras.get( fila, columnaNumEsts ) );
+					
 					int satMentora = Integer.parseInt( mentoras.get( fila, columnaSatMent ) );
 					int satEstuds = Integer.parseInt( mentoras.get( fila, columnaSatEst ) );
 					CentroEd centro = Datos.centros.get( codCentro );

@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:13:00</date>
+  <millis>1578075180190</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:13:03</date>
+  <millis>1578075183090</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:13:35</date>
+  <millis>1578075215298</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:13:37</date>
+  <millis>1578075217529</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:13:58</date>
+  <millis>1578075238529</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:14:01</date>
+  <millis>1578075241960</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:14:08</date>
+  <millis>1578075248219</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:14:11</date>
+  <millis>1578075251721</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:14:17</date>
+  <millis>1578075257404</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:14:20</date>
+  <millis>1578075260921</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:14:29</date>
+  <millis>1578075269042</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:14:33</date>
+  <millis>1578075273183</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-03T19:15:16</date>
+  <millis>1578075316061</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-03T19:15:18</date>
+  <millis>1578075318336</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:40:40</date>
+  <millis>1578224440010</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:40:42</date>
+  <millis>1578224442330</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Error en carga de mapa de fichero</message>
+  <exception>
+    <message>java.io.FileNotFoundException: farmaciasguardia.dat (No such file or directory)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>ext201702.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>ext201702.Main</class>
+      <method>cargaFarmacias</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>ext201702.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2020-01-05T12:40:42</date>
+  <millis>1578224442334</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException: farmaciasguardia.dat (No such file or directory)</message>
+    <frame>
+      <class>ext201702.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>42</line>
+    </frame>
+    <frame>
+      <class>ext201702.Main</class>
+      <method>cargaFarmacias</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>ext201702.Main</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2020-01-05T12:40:42</date>
+  <millis>1578224442400</millis>
+  <sequence>3</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:41:31</date>
+  <millis>1578224491238</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:41:33</date>
+  <millis>1578224493694</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:45:17</date>
+  <millis>1578224717177</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:45:19</date>
+  <millis>1578224719462</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:45:50</date>
+  <millis>1578224750686</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:45:53</date>
+  <millis>1578224753225</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:51:12</date>
+  <millis>1578225072919</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:51:15</date>
+  <millis>1578225075381</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:51:17</date>
+  <millis>1578225077100</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:51:19</date>
+  <millis>1578225079364</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:52:09</date>
+  <millis>1578225129441</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:52:11</date>
+  <millis>1578225131902</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:53:06</date>
+  <millis>1578225186054</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:53:08</date>
+  <millis>1578225188296</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:54:29</date>
+  <millis>1578225269903</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:54:32</date>
+  <millis>1578225272465</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:54:59</date>
+  <millis>1578225299318</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:55:01</date>
+  <millis>1578225301893</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T12:58:31</date>
+  <millis>1578225511702</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T12:58:34</date>
+  <millis>1578225514200</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T13:00:14</date>
+  <millis>1578225614252</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T13:00:16</date>
+  <millis>1578225616830</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T13:01:12</date>
+  <millis>1578225672561</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T13:01:15</date>
+  <millis>1578225675076</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T13:19:57</date>
+  <millis>1578226797289</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T13:19:59</date>
+  <millis>1578226799807</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T13:21:41</date>
+  <millis>1578226901126</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T13:21:43</date>
+  <millis>1578226903598</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:23:24</date>
+  <millis>1578237804202</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:23:26</date>
+  <millis>1578237806771</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:24:28</date>
+  <millis>1578237868955</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:24:56</date>
+  <millis>1578237896251</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:24:58</date>
+  <millis>1578237898713</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:26:00</date>
+  <millis>1578237960864</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:27:03</date>
+  <millis>1578238023028</millis>
+  <sequence>3</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:28:04</date>
+  <millis>1578238084955</millis>
+  <sequence>4</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:30:16</date>
+  <millis>1578238216037</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:30:18</date>
+  <millis>1578238218481</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:31:09</date>
+  <millis>1578238269182</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:31:11</date>
+  <millis>1578238271842</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:32:13</date>
+  <millis>1578238333754</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:32:55</date>
+  <millis>1578238375851</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:32:58</date>
+  <millis>1578238378206</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:34:00</date>
+  <millis>1578238440192</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:34:26</date>
+  <millis>1578238466631</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:34:29</date>
+  <millis>1578238469171</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:35:31</date>
+  <millis>1578238531327</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:46:14</date>
+  <millis>1578239174458</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:46:16</date>
+  <millis>1578239176962</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:47:37</date>
+  <millis>1578239257641</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:47:40</date>
+  <millis>1578239260198</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T16:48:42</date>
+  <millis>1578239322307</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:50:42</date>
+  <millis>1578239442725</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:50:45</date>
+  <millis>1578239445158</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:54:16</date>
+  <millis>1578239656826</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:54:19</date>
+  <millis>1578239659098</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:58:01</date>
+  <millis>1578239881946</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:58:04</date>
+  <millis>1578239884328</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T16:58:36</date>
+  <millis>1578239916789</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T16:58:39</date>
+  <millis>1578239919354</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:01:00</date>
+  <millis>1578240060708</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:01:03</date>
+  <millis>1578240063209</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:01:33</date>
+  <millis>1578240093908</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:01:36</date>
+  <millis>1578240096406</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:12:41</date>
+  <millis>1578240761162</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:12:43</date>
+  <millis>1578240763793</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:13:36</date>
+  <millis>1578240816933</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:13:39</date>
+  <millis>1578240819274</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:14:02</date>
+  <millis>1578240842076</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:14:04</date>
+  <millis>1578240844501</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:25:31</date>
+  <millis>1578241531074</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:25:33</date>
+  <millis>1578241533566</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:25:44</date>
+  <millis>1578241544961</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:25:47</date>
+  <millis>1578241547397</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-05T17:26:31</date>
+  <millis>1578241591118</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-05T17:26:33</date>
+  <millis>1578241593330</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+<record>
+  <date>2020-01-05T17:27:35</date>
+  <millis>1578241655356</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>15</thread>
+  <message>Guardado fichero de farmacias de 5/1</message>
+</record>
+</log>
