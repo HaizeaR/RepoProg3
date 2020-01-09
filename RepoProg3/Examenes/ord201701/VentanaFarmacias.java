@@ -131,8 +131,22 @@ public class VentanaFarmacias extends JFrame {
 	 */
 	public void clickListado() {
 		// TAREA 6
-		// TODO
+		if (mapaTodasFarmacias==null) return;
+		MapaFarmaciasOrdenadas mapaOrd = new MapaFarmaciasOrdenadas( mapaTodasFarmacias );
+		// si no hay mapa crear uno y no pasar nada por el cuadro de texto
+		taMensajes.setText( "" );
+		// en el caso de tener un mapa recorrerlo y guardar o mostrar cada línea en
+		// el cuadro de texto 
+		
+		for (TreeSet<FarmaciaGuardia> ts : mapaOrd.getMapaO().values()) {
+			for (FarmaciaGuardia f : ts) {
+				taMensajes.append( f.toString() + "\n" );
+			}
+		}
 	}
+		
+		
+	
 	
 	/** Click en el bot�n de "Capic�as"
 	 */

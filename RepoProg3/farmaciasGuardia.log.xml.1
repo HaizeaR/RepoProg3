@@ -258,3 +258,47 @@
   <message>Guardado fichero de farmacias de 5/1</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-08T11:20:51</date>
+  <millis>1578478851000</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-08T11:20:53</date>
+  <millis>1578478853507</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>

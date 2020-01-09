@@ -75,7 +75,7 @@ public class VentanaFarmacias extends JFrame {
 			@Override
 			public void windowClosing(WindowEvent e) {
 				// T2
-				BD.cerrarConexion();
+			//	BD.cerrarConexion();
 				cerrar();
 			}
 		});

@@ -8,7 +8,7 @@ import java.util.Date;
 /** Clase para representar una farmacia de guardia
  * @author andoni.eguiluz @ ingenieria.deusto.es
  */
-public class FarmaciaGuardia implements Serializable {
+public class FarmaciaGuardia implements Serializable, Comparable<FarmaciaGuardia> {
 	private static final long serialVersionUID = 1L;
 
 	private String localidad = "";
@@ -184,9 +184,12 @@ public class FarmaciaGuardia implements Serializable {
 		return false;
 	}
 
-	
-	// TAREA 6
-	// TODO
+	@Override
+	public int compareTo(FarmaciaGuardia o) {
+		if (horaDesde!=o.horaDesde) return (int) (horaDesde-o.horaDesde);
+		if (horaHasta!=o.horaHasta) return (int) (horaHasta-o.horaHasta);
+		return (zona+direccion).compareTo( o.zona+o.direccion );
+	}
 
 	
 	// TAREA 7

@@ -1392,3 +1392,253 @@
   <message>Guardado fichero de farmacias de 5/1</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-07T11:29:56</date>
+  <millis>1578392996305</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-07T11:29:58</date>
+  <millis>1578392998727</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 7/1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-07T11:31:00</date>
+  <millis>1578393060265</millis>
+  <sequence>0</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-07T11:31:02</date>
+  <millis>1578393062879</millis>
+  <sequence>1</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.MapaFarmacias</class>
+  <method>saveToFile</method>
+  <thread>1</thread>
+  <message>Guardado fichero de farmacias de 7/1</message>
+</record>
+<record>
+  <date>2020-01-07T11:31:03</date>
+  <millis>1578393063764</millis>
+  <sequence>2</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main$HiloCambioPantalla</class>
+  <method>run</method>
+  <thread>15</thread>
+  <message>Hilo de cambio de pantalla interrumpido</message>
+</record>
+<record>
+  <date>2020-01-07T11:31:03</date>
+  <millis>1578393063766</millis>
+  <sequence>3</sequence>
+  <logger>ext201702.Main</logger>
+  <level>INFO</level>
+  <class>ext201702.Main$HiloCambioPantalla</class>
+  <method>run</method>
+  <thread>15</thread>
+  <message>Final de hilo de actualizaci�n de pantalla</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-08T11:16:32</date>
+  <millis>1578478592344</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-08T11:16:34</date>
+  <millis>1578478594619</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-08T11:20:09</date>
+  <millis>1578478809055</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-08T11:20:11</date>
+  <millis>1578478811401</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-08T11:22:33</date>
+  <millis>1578478953814</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-08T11:22:36</date>
+  <millis>1578478956278</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-08T11:23:43</date>
+  <millis>1578479023582</millis>
+  <sequence>0</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio de ejecución de Main</message>
+</record>
+<record>
+  <date>2020-01-08T11:23:45</date>
+  <millis>1578479025967</millis>
+  <sequence>1</sequence>
+  <logger>ord201701.Main</logger>
+  <level>INFO</level>
+  <class>ord201701.Main</class>
+  <method>cargaFarmacias</method>
+  <thread>1</thread>
+  <message>(Tarea 2) No existe fichero de mapa previo</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>ord201701.MapaFarmacias</class>
+      <method>&lt;init&gt;</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>cargaFarmacias</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>ord201701.Main</class>
+      <method>main</method>
+      <line>62</line>
+    </frame>
+  </exception>
+</record>
+</log>
